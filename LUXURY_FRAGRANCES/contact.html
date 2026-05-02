@@ -1,0 +1,31 @@
+<!-- contact.html -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<section id="contact" class="bg-gray-300 pt-20 pb-10 text-center">
+  <h2 class="text-3xl font-semibold mb-6">Contact Us</h2>
+  <div class="mb-8">
+    <p><strong>Address:</strong> 123 Gujranwala, Pakistan</p>
+    <p><strong>Phone:</strong> +92 00 000 000</p>
+    <p><strong>Email:</strong> contact@luxuryscents.com</p>
+  </div>
+
+  <h3 class="text-2xl font-semibold mb-4">Feedback</h3>
+  <form id="contactForm" class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg" onsubmit="return validateForm()">
+    <input id="name" type="text" placeholder="Your Name" required
+      class="w-full p-3 mb-4 border-2 border-black rounded-md" />
+    <input id="email" type="email" placeholder="Your Email" required
+      class="w-full p-3 mb-4 border-2 border-black rounded-md" />
+    <textarea id="message" placeholder="Share your experience with us..." required
+      class="w-full p-3 mb-4 border-2 border-black rounded-md"></textarea>
+    <button type="submit" class="bg-red-500 text-white py-3 px-6 rounded-md transition-all hover:bg-red-600">Submit
+      Feedback</button>
+  </form>
+
+  <div id="thankYouMessage" class="mt-8 hidden text-xl text-green-600">
+    ✅ Thank you for your feedback!
+  </div>
+  </section>
+  
+  <!-- External JS -->
+  <script src="contact.js"></script>
+  

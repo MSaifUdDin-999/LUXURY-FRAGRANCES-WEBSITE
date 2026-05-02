@@ -1,0 +1,88 @@
+<link rel="stylesheet" href="https://cdn.tailwindcss.com" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Products Section -->
+<section id="products" class="py-20">
+  <h2 class="text-3xl font-semibold text-center mb-10">Our Best Collection</h2>
+
+  <!-- Product Collection -->
+  <div id="productCollection" class="flex flex-wrap justify-center gap-8 px-4">
+    <!-- Product Cards (same as before) -->
+    <!-- Product 1 -->
+    <div
+      class="flex flex-col bg-white p-8 rounded-lg shadow-lg max-w-xs transition-transform transform hover:scale-105 hover:shadow-2xl hover:duration-300">
+      <img class="w-full rounded-lg transition-all transform hover:scale-100"
+        src="Images/a.jpg" width="500"  height="750"
+        alt="Young Spirit">
+      <h3 class="mt-4 font-bold text-center">Young Spirit</h3>
+      <p class="text-sm mt-2">Warm and rich with Youth Power</p>
+      <h5 class="mt-3"><del>$120</del> <ins class="text-red-500">$99</ins></h5>
+    </div>
+
+    <!-- Product 2 -->
+    <div
+      class="flex flex-col bg-white p-8 rounded-lg shadow-lg max-w-xs transition-transform transform hover:scale-105 hover:shadow-2xl hover:duration-300">
+      <img class="w-full rounded-lg transition-all transform hover:scale-100"
+        src="Images/c.webp"
+        alt="Ocean Breeze">
+      <h3 class="mt-4 font-bold text-center">Ocean Breeze</h3>
+      <p class="text-sm mt-2">A light and airy scent</p>
+      <h5 class="mt-3"><del>$110</del> <ins class="text-red-500">$69</ins></h5>
+    </div>
+
+    <!-- Product 3 -->
+    <div
+      class="flex flex-col bg-white p-8 rounded-lg shadow-lg max-w-xs transition-transform transform hover:scale-105 hover:shadow-2xl hover:duration-300">
+      <img class="w-full rounded-lg transition-all transform hover:scale-100"
+        src="Images/b.webp" optimize="medium" fit="bounds" height="900" width="600"
+        alt="Imagination Perfume">
+      <h3 class="mt-4 font-bold text-center">Imagination Perfume</h3>
+      <p class="text-sm mt-2">Sweet fragrance for Sigma</p>
+      <h5 class="mt-3"><del>$150</del> <ins class="text-red-500">$125</ins></h5>
+    </div>
+
+    <!-- Product 4 -->
+    <div
+      class="flex flex-col bg-white p-8 rounded-lg shadow-lg max-w-xs transition-transform transform hover:scale-105 hover:shadow-2xl hover:duration-300">
+      <img class="w-full rounded-lg transition-all transform hover:scale-100"
+        src="Images/d.avif" optimize="medium"fit="bounds" height="825" width="550" canvas="2:3"
+        alt="Stallion">
+      <h3 class="mt-4 font-bold text-center">Stallion</h3>
+      <p class="text-sm mt-2">Elegant floral notes</p>
+      <h5 class="mt-3"><del>$120</del> <ins class="text-red-500">$99</ins></h5>
+    </div>
+
+    <!-- Product 5 -->
+    <div
+      class="flex flex-col bg-white p-8 rounded-lg shadow-lg max-w-xs transition-transform transform hover:scale-105 hover:shadow-2xl hover:duration-300">
+      <img class="w-full rounded-lg transition-all transform hover:scale-100"
+        src="Images/e.jpg" v="17258150388"
+        alt="Midnight Musk">
+      <h3 class="mt-4 font-bold text-center">Midnight Musk</h3>
+      <p class="text-sm mt-2">A bold and sensual aroma</p>
+      <h5 class="mt-3"><del>$90</del> <ins class="text-red-500">$49</ins></h5>
+    </div>
+
+    <!-- Product 6 -->
+    <div
+      class="flex flex-col bg-white p-8 rounded-lg shadow-lg max-w-xs transition-transform transform hover:scale-105 hover:shadow-2xl hover:duration-300">
+      <img class="w-full rounded-lg transition-all transform hover:scale-100"
+        src="Images/f.webp" v="1736255036" alt="Floral Essence">
+      <h3 class="mt-4 font-bold text-center">Floral Essence</h3>
+      <p class="text-sm mt-2">A refreshing floral fragrance</p>
+      <h5 class="mt-3"><del>$200</del> <ins class="text-red-500">$199</ins></h5>
+    </div>
+
+  </div>
+
+  <!-- Improved Show/Hide Button -->
+  <div class="text-center mb-6 mt-10">
+    <button id="toggleButton" onclick="toggleCollection()"
+      class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-full shadow-md hover:from-purple-700 hover:to-blue-700 transition duration-300 ease-in-out">
+      Hide Collection
+    </button>
+  </div>
+</section>
+
+<!-- Load external JS -->
+<script src="products.js"></script>
