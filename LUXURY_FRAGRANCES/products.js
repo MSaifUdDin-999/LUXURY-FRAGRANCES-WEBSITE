@@ -25,17 +25,3 @@ function toggleCollection() {
   document.body.addEventListener("dblclick", () => {
     document.body.classList.toggle("bg-gray-100");
   });
-
-  function toggleCollection() {
-    const collection = document.getElementById('productCollection');
-    const btn = document.getElementById('toggleButton');
-
-    if (collection.style.display === "none") {
-        collection.style.display = "flex";
-        btn.innerText = "Hide Collection";
-    } else {
-        collection.style.display = "none";
-        btn.innerText = "Show Collection";
-    }
-}
-  
